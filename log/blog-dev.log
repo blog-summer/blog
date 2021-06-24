@@ -11341,3 +11341,21 @@ Identify and stop the process that's listening on port 8080 or configure this ap
 2021-06-24 13:00:57.011  INFO 2528 --- [http-nio-8080-exec-1] com.best.aspect.LogAspect                : Result : {}index
 2021-06-24 13:01:00.931  INFO 2528 --- [http-nio-8080-exec-1] com.best.aspect.LogAspect                : Request : RequestLog{url='http://127.0.0.1:8080/about', ip='127.0.0.1', classMethod='com.best.web.IndexController.about', args=[]}
 2021-06-24 13:01:00.931  INFO 2528 --- [http-nio-8080-exec-1] com.best.aspect.LogAspect                : Result : {}about
+2021-06-24 13:08:40.899  INFO 2500 --- [restartedMain] com.best.BlogApplication                 : Starting BlogApplication using Java 1.8.0_291 on DESKTOP-KE2FLD2 with PID 2500 (C:\Users\23505\Desktop\blog\target\classes started by 23505 in C:\Users\23505\Desktop\blog)
+2021-06-24 13:08:40.899  INFO 2500 --- [restartedMain] com.best.BlogApplication                 : The following profiles are active: dev
+2021-06-24 13:08:40.931  INFO 2500 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-06-24 13:08:40.931  INFO 2500 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-06-24 13:08:41.852  INFO 2500 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-06-24 13:08:41.852  INFO 2500 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-06-24 13:08:41.852  INFO 2500 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.46]
+2021-06-24 13:08:41.915  INFO 2500 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-06-24 13:08:41.915  INFO 2500 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 984 ms
+2021-06-24 13:08:42.227  INFO 2500 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-06-24 13:08:42.493  INFO 2500 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-06-24 13:08:42.524  INFO 2500 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-06-24 13:08:42.524  INFO 2500 --- [restartedMain] com.best.BlogApplication                 : Started BlogApplication in 2.027 seconds (JVM running for 2.732)
+2021-06-24 13:08:55.015  INFO 2500 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-06-24 13:08:55.016  INFO 2500 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-06-24 13:08:55.017  INFO 2500 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-06-24 13:08:55.033  INFO 2500 --- [http-nio-8080-exec-1] com.best.aspect.LogAspect                : Request : RequestLog{url='http://127.0.0.1:8080/about', ip='127.0.0.1', classMethod='com.best.web.IndexController.about', args=[]}
+2021-06-24 13:08:55.042  INFO 2500 --- [http-nio-8080-exec-1] com.best.aspect.LogAspect                : Result : {}about
