@@ -1,0 +1,148 @@
+
+body{
+  background: url("/blogtest/static/images/bg.png") !important;
+}
+/*缩间隔*/
+.m-padded-mini{
+  padding: 0.2em !important;
+}
+.m-padded-tiny{
+  padding: 0.3em !important;
+}
+.m-padded-tb-mini{
+  padding-top:0.2em !important;
+  /*important提高级别*/
+  padding-bttom:0.2em !important;
+}
+.m-padded-tiny{
+  padding-top:0.3em !important;
+  padding-bttom:0.3em !important;
+}
+.m-padded-small{
+  padding-top:0.5em !important;
+  padding-bttom:0.5em !important;
+}
+.m-padded-tb{
+  padding-top:1em !important;
+  padding-bttom:1em !important;
+}
+.m-padded-tb-large{
+  padding-top:2em !important;
+  padding-bttom:2em !important;
+}
+.m-padded-tb-big{
+  padding-top:3em !important;
+  padding-bttom:3em !important;
+}
+.m-padded-tb-huge{
+  padding-top:4em !important;
+  padding-bttom:4em !important;
+}
+.m-padded-tb-massive{
+  padding-top:5em !important;
+  padding-bttom:5em !important;
+}
+.m-padded-lr{
+  padding-left: 4em !important;
+  padding-right: 4em !important;
+}
+/*----------text---------*/
+.m-text{
+  font-weight: 300 !important;
+  letter-spacing: 1px !important;
+  line-height: 1.8;
+}
+.m-text-thin{
+  font-weight: 300 !important;
+}
+.m-text-spaced{
+  letter-spacing: 1px !important;
+}
+.m-text-lined{ /*行间距*/
+  line-height: 1.8;
+}
+/*----------opacity-----------*/
+.m-opacity-mini{
+  /*透明度*/
+  opacity: 0.8 !important;
+}
+
+/*----------margin-----------*/
+.m-margin-tb-tiny{
+  margin-top: 0.3em !important;
+  margin-bottom: 0.3em !important;
+}
+.m-margin-top-small{
+  margin-top: 0.5em !important;
+}
+.m-margin-top{
+  margin-top: 1em !important;
+}
+.m-margin-top-large{
+  margin-top: 2em !important;
+}
+/*------------position----*/
+.m-right-top{
+  /*绝对位置*/
+  position: absolute;
+  /*右上角*/
+  top: 0;
+  right: 0;
+}
+.m-fixed{
+  position: fixed !important;
+  /*值越大，层次越靠上*/
+  z-index: 1 !important;
+}
+.m-right-bottom{
+  bottom: 3px !important;
+  right: 0 !important;
+}
+/*----------display------------*/
+.m-inline-block{
+  display: inline-block !important;
+}
+/*--------container------*/
+.m-container{
+  max-width: 72em !important;
+  margin: auto !important;
+}
+.m-container-small{
+  max-width: 60em !important;
+  margin: auto !important;
+}
+/*----------加的阴影效果shadow--------*/
+.m-shadow-small{
+  /*为了适配浏览器*/
+  -webkit-box-shadow: 0 4px 8px  rgba(0,0,0,0.2) !important;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2) !important;
+}
+
+
+
+
+/*----------color---------*/
+.m-black{
+  color: #333 !important;
+}
+/*手机端显示而电脑端隐藏*/
+.m-mobile-show{
+  display: none !important;
+}
+
+/*----------手机端隐藏----------*/
+/*媒体查询，可用于手机端隐藏*/
+@media screen and (max-width: 768px){
+  /*手机端隐藏*/
+  .m-mobile-hide{
+    display: none !important;
+  }
+  /*手机端显示*/
+  .m-mobile-show{
+    display: block !important;
+  }
+  .m-mobile-lr-clear{
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+}

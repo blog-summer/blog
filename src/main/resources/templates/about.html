@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head th:replace="_fragments :: head(~{::title}) ">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>关于我</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css">
+  <link rel="stylesheet" href="../static/css/me.css">
+</head>
+<body>
+  <!--导航  inverted反转-->
+  <nav th:replace="_fragments :: menu(5)" class="ui inverted attached segment  m-padded-tb-mini m-shadow-small">
+    <div class="ui container">
+      <!--移动端响应：stackable可堆叠-->
+      <div class="ui inverted secondary stackable  menu">
+        <h2 class="ui teal header item">Blog</h2>
+        <!--m-mobile-hide移动端的时候，把元素隐藏掉-->
+        <!--m-item: 方便jquery获取元素 -->
+        <a href="#" class="m-item item m-mobile-hide"><i class=" home icon"></i>首页</a>
+        <a href="#" class="m-item item m-mobile-hide"><i class="idea icon"></i>分类</a>
+        <a href="#" class="m-item item m-mobile-hide"><i class="tags icon"></i>标签</a>
+        <a href="#" class="m-item item m-mobile-hide"><i class="clone icon"></i>归档</a>
+        <a href="#" class="active m-item item m-mobile-hide"><i class="info icon"></i>关于我</a>
+        <div class="right m-item item m-mobile-hide">
+          <div class="ui icon  inverted transparent input">
+            <input type="text" placeholder="Search...">
+            <i class="search link icon"></i>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <!--只在移动端显示  m-mobile-show-->
+    <!--给移动端添加一个按钮，点击会显示-->
+    <!--jquery来绑定:  menu toggle-->
+    <a href="#" class="ui menu toggle black icon button m-right-top m-mobile-show">
+      <i class="sidebar icon"></i>
+    </a>
+  </nav>
+  <!--中间内容-->
+  <div class="m-container m-padded-tb-big">
+    <div class="ui container"><!--大的A container is an element designed to contain page elements to a reasonable maximum width based on the size of a user's screen-->
+      <div class="ui stackable  grid"> <!--自适应-->
+       <div class="eleven wide colum"> <!--左边图片11个左右宽度-->
+         <div class="ui segment">
+         <img src="../static/images/as.jpg" th:src="@{/images/as.jpg}" style="width: 40em" alt="" class="ui rounded imag">
+         </div>
+         </div>
+       <div class="five wide column"><!--左边图片5个左右宽度,4个部分-->
+          <div class="ui top attached segment" >
+            <div class="class ui header">关于我</div>
+          </div>
+          <div class="ui top attached segment" >
+              <p class="m-text">第3组，是一个独立开发组，折腾在0和1世界的小组，终身学习者，誓将学习无限循环，希望可以结识可以共同成长的小伙伴</p>
+          </div>
+         <div class="ui top attached segment" >
+           <div class="ui orange label left pointing ">编程</div>
+           <div class="ui orange label left pointing ">思考</div>
+           <div class="ui orange label left pointing ">实践</div>
+           <div class="ui orange label left pointing ">运动</div>
+         </div>
+         <!-- 基础标签-->
+         <div class="ui top attached segment" >
+           <div class="ui teal basic left pointing label m-margin-tb-tiny">java</div>
+           <div class="ui teal basic left pointing label m-margin-tb-tiny">javaScript</div>
+           <div class="ui teal basic left pointing label m-margin-tb-tiny">redis</div>
+           <div class="ui teal basic left pointing label m-margin-tb-tiny">spring</div>
+           <div class="ui teal basic left pointing label m-margin-tb-tiny">springBoot</div>
+           <div class="ui teal basic left pointing label m-margin-tb-tiny">MongoDB</div>
+           <div class="ui teal basic left pointing label m-margin-tb-tiny">...</div>
+         </div>
+         <div class="ui bottom attached segment"><!--Popup includes both a javascript version (with a full featureset) and a limited CSS only version, which can be useful in pages that use many popups, or with libraries like React or Meteor to avoid handling DOM lifecycle.-->
+           <a href="#" class="ui github circular icon button"><i class="github icon"></i></a>
+           <a href="#" class="ui wechat circular icon button"><i class="weixin icon" ></i></a>
+           <a href="#" class="ui qq circular icon button"data-content="1739951529"><i class="qq icon" ></i></a>
+
+         </div>
+         <div class="ui wechat-qr flowing popup transition hidden" >
+           <img src="../static/images/1.PNG" th:src="@{/images/1.PNG}" alt="" class="ui rounded image" style="width: 110px">
+         </div>
+       </div>
+  <!-- 左右布局-->
+     </div>
+    </div>
+  </div>
+  <br>
+  <br>
+  <!--底部-->
+  <footer th:replace="_fragments :: footer" class="ui inverted vertical segment m-padded-tb-massive">
+  <div class="ui center aligned container">
+    <!--stackable:适应手机端！！-->
+    <div class="ui inverted divided stackable grid">
+      <div class="three wide column">
+        <div class="ui inverted link list">
+          <div class="item">
+            <img src="../static/images/1.PNG" class="ui rounded image" alt="" style="width: 100px">
+          </div>
+        </div>
+      </div>
+      <div class="three wide column">
+        <h4 class="ui inverted header">最新博客</h4>
+        <div class="ui inverted link list">
+          <a href="#" class="item">用户故事(User Story)</a>
+          <a href="#" class="item">用户故事(User Story)</a>
+          <a href="#" class="item">用户故事(User Story)</a>
+        </div>
+      </div>
+
+
+      <div class="three wide column">
+        <h4 class="ui inverted header">联系我</h4>
+        <div class="ui inverted link list">
+          <a href="#" class="item">Email:1739951529@qq.com</a>
+          <a href="#" class="item">QQ:1739951529</a>
+        </div>
+      </div>
+      <div class="seven wide column">
+        <h4 class="ui inverted header">博客介绍</h4>
+        <p class="m-opacity-mini">这是我的个人博客，会分享关于编程、写作、思考相关的任何内容，希望可以给来到这儿的人有所帮助...</p>
+      </div>
+    </div>
+  </div>
+
+    <div class="ui inverted  section divider"></div>
+    <div class="ui center aligned  container">
+      <p class="m-text-thin m-text-spaced m-opacity-mini" >Copyright © 2021-2022  All Rights Reserved V.1.0.0 备案号:蜀ICP备18008600号</p>
+    </div>
+
+  </footer>
+
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.2/dist/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.js"></script>
+
+  <script>
+    $('.menu.toggle').click(function () {
+      //如果有m-mobile-hide，就去除掉。 如果没有，就加上。
+      $('.m-item').toggleClass('m-mobile-hide');
+    });
+    $('.wechat').popup({
+      popup:$('.wechat-qr'),
+      // on:'hover',<!-- 直接出来-->
+      position:'bottom center'
+    });
+    $('.qq').popup();
+    $(".github").on("click",function(){
+      location.href="https://github.com/";
+
+    });
+  </script>
+</body>
+</html>
