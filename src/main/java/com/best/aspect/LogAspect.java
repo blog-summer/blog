@@ -1,6 +1,5 @@
-package com.lrm.aspect;
+package com.best.aspect;
 
-import org.apache.juli.logging.LogFactory;
 import org.aspectj.lang.JoinPoint;
 import org.aspectj.lang.annotation.*;
 import org.slf4j.Logger;
@@ -29,7 +28,7 @@ public class LogAspect {
      * 注解，规定切面拦截哪个类
      * 拦截web下所有
      */
-    @Pointcut("execution(* com.lrm.web.*.*(..))")
+    @Pointcut("execution(* com.best.web.*.*(..))")
     public void log(){}
 
     @Before("log()")

@@ -9,7 +9,7 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
 
-    <groupId>com.lrm</groupId>
+    <groupId>com.best</groupId>
     <artifactId>blog</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>blog</name>
@@ -17,7 +17,7 @@
 
     <properties>
 <!--        11改成12  -->
-        <java.version>12</java.version>
+        <java.version>8</java.version>
         <thymeleaf-spring5.version>3.0.2.RELEASE</thymeleaf-spring5.version>
         <thymeleaf-layout-dialect.version>2.1.1</thymeleaf-layout-dialect.version>
     </properties>
