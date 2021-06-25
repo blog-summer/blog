@@ -174,6 +174,7 @@ public class Blog {
         this.updateTime = updateTime;
     }
 
+    
     @Override
     public String toString() {
         return "Blog{" +
