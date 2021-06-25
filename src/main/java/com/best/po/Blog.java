@@ -35,6 +35,11 @@ public class Blog {
     @OneToMany(mappedBy = "blog")
     private List<Comment> comments=new ArrayList<>();
 
+    @Transient
+    private String tagIds;
+
+    private String description;
+
     public List<Comment> getComments() {
         return comments;
     }
@@ -174,7 +179,22 @@ public class Blog {
         this.updateTime = updateTime;
     }
 
-    
+    public String getTagIds() {
+        return tagIds;
+    }
+
+    public void setTagIds(String tagIds) {
+        this.tagIds = tagIds;
+    }
+
+    public String getDescription() {
+        return description;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
+    }
+
     @Override
     public String toString() {
         return "Blog{" +
@@ -183,14 +203,20 @@ public class Blog {
                 ", content='" + content + '\'' +
                 ", firstPicture='" + firstPicture + '\'' +
                 ", flag='" + flag + '\'' +
-                ", view=" + views +
-                ", apprecation=" + appreciation +
+                ", views=" + views +
+                ", appreciation=" + appreciation +
                 ", shareStatement=" + shareStatement +
                 ", commentabled=" + commentabled +
                 ", published=" + published +
                 ", recommend=" + recommend +
                 ", createTime=" + createTime +
                 ", updateTime=" + updateTime +
+                ", type=" + type +
+                ", tags=" + tags +
+                ", user=" + user +
+                ", comments=" + comments +
+                ", tagIds='" + tagIds + '\'' +
+                ", description='" + description + '\'' +
                 '}';
     }
 }
