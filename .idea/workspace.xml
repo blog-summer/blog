@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1f4f0d6d-3294-4fec-836a-28691d56c98f" name="Default Changelist" comment="Default Changelist">
+    <list default="true" id="1f4f0d6d-3294-4fec-836a-28691d56c98f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/best/BlogApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/best/BlogApplication.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,6 +67,19 @@
     </key>
   </component>
   <component name="RunManager">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="BlogApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="blog" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.best.BlogApplication" />
@@ -97,6 +109,14 @@
       <workItem from="1624519765056" duration="2343000" />
       <workItem from="1624595185587" duration="3165000" />
     </task>
+    <task id="LOCAL-00001" summary="Default Changelist">
+      <created>1624600854293</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1624600854293</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -113,5 +133,9 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Default Changelist" />
+    <option name="LAST_COMMIT_MESSAGE" value="Default Changelist" />
   </component>
 </project>
