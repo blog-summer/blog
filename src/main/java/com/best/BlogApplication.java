@@ -6,6 +6,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;
 
 @EnableAutoConfiguration //数据表生成
+//此处不影响运行
 @SpringBootApplication(exclude = {DataSourceAutoConfiguration.class})
 public class BlogApplication {
 
