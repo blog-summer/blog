@@ -9,7 +9,9 @@ import org.springframework.web.context.request.RequestContextHolder;
 import org.springframework.web.context.request.ServletRequestAttributes;
 
 import javax.servlet.http.HttpServletRequest;
+import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.List;
 
 /**
  * 记录日志内容：
@@ -49,12 +51,13 @@ public class LogAspect {
     @After("log()")
     public void doAfter(){
         //logger.info("------------doAfter---------");
+
     }
 
     //方法执行完，返回的时候，拦截
     @AfterReturning(returning = "result",pointcut = "log()")
     public void  doAfterReturn(Object result){
-        logger.info("Result : {}" + result);
+        logger.info("Result : {}" , result);
     }
 
     private class RequestLog{
