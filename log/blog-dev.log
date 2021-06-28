@@ -122,3 +122,62 @@
 2021-06-25 13:16:09.988  INFO 10912 --- [http-nio-8080-exec-5] com.best.aspect.LogAspect                : Result : /admin/blogs
 2021-06-25 13:16:24.835  INFO 10912 --- [http-nio-8080-exec-1] com.best.aspect.LogAspect                : Request : RequestLog{url='http://127.0.0.1:8080/blogs-input', ip='127.0.0.1', classMethod='com.best.web.IndexController.blogsinput', args=[]}
 2021-06-25 13:16:24.835  INFO 10912 --- [http-nio-8080-exec-1] com.best.aspect.LogAspect                : Result : /admin/blogs-input
+2021-06-28 12:27:21.326  INFO 7336 --- [restartedMain] com.best.BlogApplication                 : Starting BlogApplication using Java 1.8.0_291 on DESKTOP-KE2FLD2 with PID 7336 (C:\Users\23505\Desktop\blog\target\classes started by 23505 in C:\Users\23505\Desktop\blog)
+2021-06-28 12:27:21.328  INFO 7336 --- [restartedMain] com.best.BlogApplication                 : The following profiles are active: dev
+2021-06-28 12:27:21.376  INFO 7336 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-06-28 12:27:21.377  INFO 7336 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-06-28 12:27:21.924  INFO 7336 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-06-28 12:27:21.987  INFO 7336 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 53 ms. Found 4 JPA repository interfaces.
+2021-06-28 12:27:22.615  INFO 7336 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-06-28 12:27:22.623  INFO 7336 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-06-28 12:27:22.623  INFO 7336 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.46]
+2021-06-28 12:27:22.698  INFO 7336 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-06-28 12:27:22.698  INFO 7336 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1321 ms
+2021-06-28 12:27:22.773  INFO 7336 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-06-28 12:27:22.774  WARN 7336 --- [restartedMain] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2021-06-28 12:27:23.284  INFO 7336 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-06-28 12:27:23.377  INFO 7336 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-06-28 12:27:23.421  INFO 7336 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-06-28 12:27:23.545  INFO 7336 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-06-28 12:27:23.648  INFO 7336 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-06-28 12:27:24.313  INFO 7336 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-06-28 12:27:24.321  INFO 7336 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-06-28 12:27:24.873  WARN 7336 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-06-28 12:27:25.269  INFO 7336 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-06-28 12:27:25.558  INFO 7336 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-06-28 12:27:25.586  INFO 7336 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-06-28 12:27:25.594  INFO 7336 --- [restartedMain] com.best.BlogApplication                 : Started BlogApplication in 4.737 seconds (JVM running for 6.28)
+2021-06-28 12:27:28.383  INFO 7336 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-06-28 12:27:28.383  INFO 7336 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-06-28 12:27:28.384  INFO 7336 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-06-28 12:27:28.411  INFO 7336 --- [http-nio-8080-exec-1] com.best.aspect.LogAspect                : Request : RequestLog{url='http://127.0.0.1:8080/', ip='127.0.0.1', classMethod='com.best.web.IndexController.index', args=[]}
+2021-06-28 12:27:28.419  INFO 7336 --- [http-nio-8080-exec-1] com.best.aspect.LogAspect                : Result : index
+2021-06-28 12:27:28.937  INFO 7336 --- [http-nio-8080-exec-10] com.best.aspect.LogAspect                : Request : RequestLog{url='http://127.0.0.1:8080/', ip='127.0.0.1', classMethod='com.best.web.IndexController.index', args=[]}
+2021-06-28 12:27:28.937  INFO 7336 --- [http-nio-8080-exec-10] com.best.aspect.LogAspect                : Result : index
+2021-06-28 12:28:15.615  INFO 7336 --- [http-nio-8080-exec-4] com.best.aspect.LogAspect                : Request : RequestLog{url='http://127.0.0.1:8080/', ip='127.0.0.1', classMethod='com.best.web.IndexController.index', args=[]}
+2021-06-28 12:28:15.616  INFO 7336 --- [http-nio-8080-exec-4] com.best.aspect.LogAspect                : Result : index
+2021-06-28 12:28:46.682  INFO 7336 --- [Thread-14] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-06-28 12:28:46.686  INFO 7336 --- [Thread-14] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-06-28 12:28:46.692  INFO 7336 --- [Thread-14] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-06-28 12:28:46.889  INFO 7336 --- [restartedMain] com.best.BlogApplication                 : Starting BlogApplication using Java 1.8.0_291 on DESKTOP-KE2FLD2 with PID 7336 (C:\Users\23505\Desktop\blog\target\classes started by 23505 in C:\Users\23505\Desktop\blog)
+2021-06-28 12:28:46.889  INFO 7336 --- [restartedMain] com.best.BlogApplication                 : The following profiles are active: dev
+2021-06-28 12:28:47.025  INFO 7336 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-06-28 12:28:47.028  INFO 7336 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 2 ms. Found 0 JPA repository interfaces.
+2021-06-28 12:28:47.146  INFO 7336 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-06-28 12:28:47.147  INFO 7336 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-06-28 12:28:47.147  INFO 7336 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.46]
+2021-06-28 12:28:47.161  INFO 7336 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-06-28 12:28:47.161  INFO 7336 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 271 ms
+2021-06-28 12:28:47.193  INFO 7336 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2021-06-28 12:28:47.193  WARN 7336 --- [restartedMain] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2021-06-28 12:28:47.215  INFO 7336 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2021-06-28 12:28:47.232  INFO 7336 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-06-28 12:28:47.239  INFO 7336 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-06-28 12:28:47.346  INFO 7336 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-06-28 12:28:47.346  INFO 7336 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-06-28 12:28:47.388  WARN 7336 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-06-28 12:28:47.530  INFO 7336 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-06-28 12:28:47.666  INFO 7336 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-06-28 12:28:47.676  INFO 7336 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-06-28 12:28:47.680  INFO 7336 --- [restartedMain] com.best.BlogApplication                 : Started BlogApplication in 0.823 seconds (JVM running for 88.365)
+2021-06-28 12:28:47.681  INFO 7336 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
