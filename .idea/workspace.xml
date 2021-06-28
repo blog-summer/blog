@@ -93,17 +93,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="BlogApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="blog" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.best.BlogApplication" />
@@ -140,7 +129,8 @@
       <workItem from="1624856890349" duration="380000" />
       <workItem from="1624857663655" duration="70000" />
       <workItem from="1624857779265" duration="117000" />
-      <workItem from="1624857916124" duration="6011000" />
+      <workItem from="1624857916124" duration="6281000" />
+      <workItem from="1624865399343" duration="1273000" />
     </task>
     <servers />
   </component>
