@@ -5,29 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1f4f0d6d-3294-4fec-836a-28691d56c98f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/best/util/MyBeanUtils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/log/blog-dev.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/blog-dev.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/best/dao/BlogRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/best/dao/BlogRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/best/dao/TagRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/best/dao/TagRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/best/dao/TypeRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/best/dao/TypeRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/best/service/BlogService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/best/service/BlogService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/best/service/BlogServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/best/service/BlogServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/best/service/TagService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/best/service/TagService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/best/service/TagServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/best/service/TagServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/best/service/TypeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/best/service/TypeService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/best/service/TypeServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/best/service/TypeServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/best/web/IndexController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/best/web/IndexController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/best/web/admin/BlogController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/best/web/admin/BlogController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application-dev.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application-dev.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/best/BlogApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/best/BlogApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/best/po/Blog.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/best/po/Blog.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/best/web/IndexController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/best/web/IndexController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/admin/blogs-input.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/admin/blogs-input.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/admin/blogs.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/admin/blogs.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/error/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/error/404.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/error/error.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/error/error.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -131,7 +110,7 @@
       <workItem from="1624510521479" duration="454000" />
       <workItem from="1624704899392" duration="3240000" />
       <workItem from="1624793543214" duration="1607000" />
-      <workItem from="1624854962246" duration="2581000" />
+      <workItem from="1624854962246" duration="3231000" />
     </task>
     <task id="LOCAL-00001" summary="Default Changelist">
       <created>1624706103633</created>
@@ -154,7 +133,21 @@
       <option name="project" value="LOCAL" />
       <updated>1624707385041</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Default Changelist">
+      <created>1624858774538</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1624858774538</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Default Changelist">
+      <created>1624859058686</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1624859058686</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
