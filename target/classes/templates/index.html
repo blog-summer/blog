@@ -380,7 +380,7 @@
             <i class="bookmark icon"></i>最新推荐
           </div>
           <div class="ui segment" th:each="blog : ${recommendBlogs}">
-            <a href="#" th:href="@{/blog/{id}(id=${blog.id)}}" target="_blank" class="m-black m-text-thin" th:text="${blog.title}">用户故事</a>
+            <a href="#" th:href="@{/blog/{id}(id=${blog.id})}" target="_blank" class="m-black m-text-thin" th:text="${blog.title}">用户故事</a>
           </div>
           <!--/*-->
           <div class="ui segment">
