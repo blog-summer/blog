@@ -33,7 +33,7 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHome" value="D:/IDEA/maven/apache-maven-3.6.3" />
+        <option name="mavenHome" value="D:\idea\IntelliJ IDEA 2020.2\plugins\maven\lib\maven3" />
         <option name="userSettingsFile" value="D:\IDEA\maven\apache-maven-3.6.3\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
@@ -53,24 +53,30 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/templates/admin" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="project.structure.last.edited" value="SDK" />
+    <property name="project.structure.last.edited" value="全局库" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\放代码\blog\src\main\resources\templates\error" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.best.util" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\lenovo\Desktop\软件测试\blog\src\main\resources\templates" />
       <recent name="C:\Users\23505\Desktop\blog\src\main\resources\templates\admin" />
       <recent name="D:\放代码\blog\src\main\resources\static" />
       <recent name="D:\放代码\blog\src\main\resources\templates" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\放代码\blog\src\main\resources\templates\error" />
     </key>
   </component>
   <component name="RunManager" selected="Spring Boot.BlogApplication">
@@ -128,7 +134,13 @@
       <workItem from="1624595185587" duration="3165000" />
       <workItem from="1624600338759" duration="6809000" />
       <workItem from="1624607509103" duration="460000" />
-      <workItem from="1624609170770" duration="11337000" />
+      <workItem from="1624609170770" duration="11680000" />
+      <workItem from="1624804754933" duration="6901000" />
+      <workItem from="1624856107951" duration="546000" />
+      <workItem from="1624856890349" duration="380000" />
+      <workItem from="1624857663655" duration="70000" />
+      <workItem from="1624857779265" duration="117000" />
+      <workItem from="1624857916124" duration="6011000" />
     </task>
     <servers />
   </component>

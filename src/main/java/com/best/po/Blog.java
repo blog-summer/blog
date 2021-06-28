@@ -11,8 +11,10 @@ public class Blog {
     @Id
     @GeneratedValue
     private Long id;
-
     private String title;
+    //为了数据库自动生成Longtext类型
+    @Basic(fetch = FetchType.LAZY)
+    @Lob
     private String content;
     private String firstPicture;
     private String flag;
@@ -20,6 +22,7 @@ public class Blog {
     private boolean appreciation;
     private boolean shareStatement;
     private boolean commentabled;
+    //published为1 ：发布   为0：保存
     private boolean published;
     private boolean recommend;
     @Temporal(TemporalType.TIMESTAMP)
@@ -40,6 +43,27 @@ public class Blog {
 
     private String description;
 
+    public void init(){
+        this.tagIds=tagsToIds(this.getTags());
+    }
+    //1,2,3
+    private String tagsToIds(List<Tag> tags) {
+        if (!tags.isEmpty()) {
+            StringBuffer ids = new StringBuffer();
+            boolean flag = false;
+            for (Tag tag : tags) {
+                if (flag) {
+                    ids.append(",");
+                } else {
+                    flag = true;
+                }
+                ids.append(tag.getId());
+            }
+            return ids.toString();
+        } else {
+            return tagIds;
+        }
+    }
     public List<Comment> getComments() {
         return comments;
     }
