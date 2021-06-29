@@ -1,6 +1,7 @@
 package com.best.web.admin;
 
 import com.best.po.Blog;
+import com.best.po.Tag;
 import com.best.po.User;
 import com.best.service.BlogService;
 import com.best.service.TagService;
@@ -19,6 +20,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
 import javax.servlet.http.HttpSession;
+import java.util.ArrayList;
+import java.util.List;
 
 @Controller
 @RequestMapping("/admin")
@@ -76,12 +79,38 @@ public class BlogController {
         //这个时候blogs-input才拿到tagsId
         return INPUT;
     }
+
      //新增博客的提交
      @PostMapping("/blogs")
      public String post(Blog blog, RedirectAttributes attributes, HttpSession session){
          blog.setUser((User) session.getAttribute("user"));
          blog.setType(typeService.getType(blog.getType().getId()));
-         blog.setTags(tagService.listTag(blog.getTagIds()));
+
+
+         String[] idarray=blog.getTagIds().split(",");
+         for(int i=0;i< idarray.length;i++){
+             try {
+                 Long id=Long.parseLong(idarray[i]);
+                 if(tagService.getTag(id)==null){
+                     throw new Exception();
+                 }
+             }catch (Exception e){
+                 Tag it=new Tag();
+                 it.setName(idarray[i]);
+                 idarray[i]=tagService.saveTag(it).getId().toString();
+
+             }
+         }
+
+         String ids=new String("");
+         if (idarray.length>0)
+         ids+=idarray[0];
+         for(int i=1;i<idarray.length;i++){
+             ids+=",";
+             ids+=idarray[i];
+         }
+
+         blog.setTags(tagService.listTag(ids));
          Blog b;
          if (blog.getId() == null){
              b = blogService.saveBlog(blog);
