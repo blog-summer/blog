@@ -23,11 +23,11 @@
       <h2 class="ui teal header item">Blog</h2>
       <!--m-mobile-hide移动端的时候，把元素隐藏掉-->
       <!--m-item: 方便jquery获取元素 -->
-      <a href="#" class="m-item item m-mobile-hide" th:classappend="${n==1} ? 'active'"><i class=" home icon"></i>首页</a>
-      <a href="#" class="m-item item m-mobile-hide" th:classappend="${n==2} ? 'active'"><i class="idea icon"></i>分类</a>
-      <a href="#" class="m-item item m-mobile-hide" th:classappend="${n==3} ? 'active'"><i class="tags icon"></i>标签</a>
-      <a href="#" class="m-item item m-mobile-hide" th:classappend="${n==4} ? 'active'"><i class="clone icon"></i>归档</a>
-      <a href="#" class="m-item item m-mobile-hide" th:classappend="${n==5} ? 'active'"><i class="info icon"></i>关于我</a>
+      <a href="#" th:href="@{/}" class="m-item item m-mobile-hide" th:classappend="${n==1} ? 'active'"><i class=" home icon"></i>首页</a>
+      <a href="#" th:href="@{/types/-1}" class="m-item item m-mobile-hide" th:classappend="${n==2} ? 'active'"><i class="idea icon"></i>分类</a>
+      <a href="#" th:href="@{/tags/-1}" class="m-item item m-mobile-hide" th:classappend="${n==3} ? 'active'"><i class="tags icon"></i>标签</a>
+      <a href="#" th:href="@{/archives/-1}" class="m-item item m-mobile-hide" th:classappend="${n==4} ? 'active'"><i class="clone icon"></i>归档</a>
+      <a href="#" th:href="@{/about}" class="m-item item m-mobile-hide" th:classappend="${n==5} ? 'active'"><i class="info icon"></i>关于我</a>
       <div class="right m-item item m-mobile-hide">
         <form name="search" action="#" th:action="@{/search}" method="post" target="_blank">
           <div class="ui icon  inverted transparent input">
@@ -86,7 +86,7 @@
 
   <div class="ui inverted  section divider"></div>
   <div class="ui center aligned  container">
-    <p class="m-text-thin m-text-spaced m-opacity-mini" >Copyright © 2021-2022  All Rights Reserved V.1.0.0 备案号:蜀ICP备18008600号</p>
+    <p class="m-text-thin m-text-spaced m-opacity-mini" >Copyright © 2021-2022  All Rights Reserved V.1.0.0 备案号:XXX</p>
   </div>
 
 </footer>

@@ -280,13 +280,13 @@
         </div>
 
         <!--footer-->
-        <div class="ui bottom attached segment">
+        <div class="ui bottom attached segment" th:if="${page.totalPages}>1">
           <div class="ui middle aligned two column grid">
             <div class="column">
               <a class="item" th:href="@{/(page=${page.number}-1)}" th:unless="${page.first}">上一页</a>
             </div>
             <div class="right aligned column">
-              <a class="item" th:href="@{/(page=${page.number}+1)}" th:unless="${page.first}">下一页</a>
+              <a class="item" th:href="@{/(page=${page.number}+1)}" th:unless="${page.last}">下一页</a>
             </div>
           </div>
         </div>
