@@ -3344,3 +3344,35 @@ Caused by: java.lang.IllegalArgumentException: Could not resolve placeholder 'co
 	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
 	... 22 common frames omitted
 
+2021-06-29 13:23:03.901  INFO 3496 --- [restartedMain] com.best.BlogApplication                 : Starting BlogApplication using Java 1.8.0_131 on LAPTOP-1OABVI08 with PID 3496 (D:\3-Material Set\Study Origin\2021 Spring\summer_blog\target\classes started by qhj08 in D:\3-Material Set\Study Origin\2021 Spring\summer_blog)
+2021-06-29 13:23:03.904  INFO 3496 --- [restartedMain] com.best.BlogApplication                 : The following profiles are active: dev
+2021-06-29 13:23:03.942  INFO 3496 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-06-29 13:23:03.943  INFO 3496 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-06-29 13:23:04.497  INFO 3496 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-06-29 13:23:04.561  INFO 3496 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 58 ms. Found 5 JPA repository interfaces.
+2021-06-29 13:23:05.108  INFO 3496 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-06-29 13:23:05.115  INFO 3496 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-06-29 13:23:05.115  INFO 3496 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.46]
+2021-06-29 13:23:05.211  INFO 3496 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-06-29 13:23:05.212  INFO 3496 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1269 ms
+2021-06-29 13:23:05.309  INFO 3496 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-06-29 13:23:05.311  WARN 3496 --- [restartedMain] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2021-06-29 13:23:05.435  INFO 3496 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-06-29 13:23:05.513  INFO 3496 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-06-29 13:23:05.544  INFO 3496 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-06-29 13:23:05.626  INFO 3496 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-06-29 13:23:05.702  INFO 3496 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+2021-06-29 13:23:06.224  INFO 3496 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-06-29 13:23:06.231  INFO 3496 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-06-29 13:23:06.905  WARN 3496 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-06-29 13:23:07.128  INFO 3496 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-06-29 13:23:07.575  INFO 3496 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-06-29 13:23:07.605  INFO 3496 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-06-29 13:23:07.613  INFO 3496 --- [restartedMain] com.best.BlogApplication                 : Started BlogApplication in 4.115 seconds (JVM running for 5.056)
+2021-06-29 13:57:52.511  INFO 3496 --- [http-nio-8080-exec-9] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-06-29 13:57:52.512  INFO 3496 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-06-29 13:57:52.514  INFO 3496 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2021-06-29 13:57:52.565  INFO 3496 --- [http-nio-8080-exec-9] com.best.aspect.LogAspect                : Request : RequestLog{url='http://localhost:8080/blog/22', ip='127.0.0.1', classMethod='com.best.web.IndexController.blog', args=[22, {}]}
+2021-06-29 13:57:52.765  INFO 3496 --- [http-nio-8080-exec-9] com.best.aspect.LogAspect                : Result : blog
+2021-06-29 13:57:54.409  INFO 3496 --- [http-nio-8080-exec-6] com.best.aspect.LogAspect                : Request : RequestLog{url='http://localhost:8080/comments/22', ip='127.0.0.1', classMethod='com.best.web.CommentController.comments', args=[22, {}]}
+2021-06-29 13:57:54.466  INFO 3496 --- [http-nio-8080-exec-6] com.best.aspect.LogAspect                : Result : blog :: commentList
