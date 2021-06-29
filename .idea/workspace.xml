@@ -5,10 +5,31 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1f4f0d6d-3294-4fec-836a-28691d56c98f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/best/dao/CommentRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/best/service/CommentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/best/service/CommentServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/best/web/CommentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/avatar.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/log/blog-dev.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/blog-dev.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/best/dao/BlogRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/best/dao/BlogRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/best/po/Comment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/best/po/Comment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/best/service/BlogService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/best/service/BlogService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/best/service/BlogServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/best/service/BlogServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/best/util/MarkdownUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/best/util/MarkdownUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/best/web/IndexController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/best/web/IndexController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/typo.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/typo.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/blog.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/blog.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/best/dao/BlogRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/best/dao/BlogRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/best/service/BlogService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/best/service/BlogService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/best/service/BlogServiceImpl$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/best/service/BlogServiceImpl$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/best/service/BlogServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/best/service/BlogServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/best/util/MarkdownUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/best/util/MarkdownUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/best/web/IndexController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/best/web/IndexController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/css/typo.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/css/typo.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/blog.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/blog.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +41,7 @@
       <list>
         <option value="HTML File" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -34,11 +56,15 @@
     </option>
   </component>
   <component name="ProjectId" id="1uKrRXGlfGOYJFNgtaz9RFpFVn5" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
@@ -75,17 +101,6 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="BlogApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="blog" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.best.BlogApplication" />
@@ -113,7 +128,9 @@
       <workItem from="1624510521479" duration="454000" />
       <workItem from="1624704899392" duration="3240000" />
       <workItem from="1624793543214" duration="1607000" />
-      <workItem from="1624854962246" duration="7898000" />
+      <workItem from="1624854962246" duration="10309000" />
+      <workItem from="1624875911668" duration="16550000" />
+      <workItem from="1624922764838" duration="3403000" />
     </task>
     <task id="LOCAL-00001" summary="Default Changelist">
       <created>1624706103633</created>
@@ -171,7 +188,14 @@
       <option name="project" value="LOCAL" />
       <updated>1624863788383</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Default Changelist">
+      <created>1624864431460</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1624864431460</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -190,6 +214,7 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Default Changelist" />
     <option name="LAST_COMMIT_MESSAGE" value="Default Changelist" />
   </component>

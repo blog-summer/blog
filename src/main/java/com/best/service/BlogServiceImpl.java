@@ -5,6 +5,7 @@ import com.best.dao.BlogRepository;
 import com.best.po.Blog;
 import com.best.po.Type;
 
+import com.best.util.MarkdownUtils;
 import com.best.util.MyBeanUtils;
 import com.best.vo.BlogQuery;
 import org.springframework.beans.BeanUtils;
@@ -35,6 +36,21 @@ public class BlogServiceImpl implements BlogService {
     public Blog getBlog(Long id) {
         //return blogRepository.findOne(id);
         return blogRepository.getById(id);
+    }
+
+    @Override
+    public Blog getAndConvert(Long id) {
+        Blog blog=blogRepository.getOne(id);
+        if(blog==null){
+            throw new NotFoundException("该博客不存在");
+        }
+        Blog b = new Blog();
+        BeanUtils.copyProperties(blog,b);
+        String content = b.getContent();
+        b.setContent(MarkdownUtils.markdownToHtmlExtensions(content));
+
+        blogRepository.updateViews(id);//更新views
+        return b;
     }
 
     /**

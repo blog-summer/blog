@@ -1,11 +1,16 @@
 @charset "utf-8";
 /*排版*/
 /*字体*/
-.typo{
+.typo p{
   font-size: 16px;
   font-weight: 300;
   line-height: 1.5;
   text-align: justify;
+}
+
+.type li{
+  font-weight: 300;
+  padding: 4px 0;
 }
 /*横向滚动条*/
 .typo pre{
