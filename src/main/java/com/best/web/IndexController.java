@@ -59,29 +59,29 @@ public class IndexController {
 
 
 
-    @GetMapping("/about")
-    public String about(){
-        //int i=9/0;
-        //拦截异常 返回500
-        //String blog=null;
-        //if(blog==null){
-        //    throw  new NotFoundException("博客不存在");
-        //}
+//    @GetMapping("/about")
+//    public String about(){
+//        //int i=9/0;
+//        //拦截异常 返回500
+//        //String blog=null;
+//        //if(blog==null){
+//        //    throw  new NotFoundException("博客不存在");
+//        //}
+//
+//        return "about";
+//    }
 
-        return "about";
-    }
-
-    @GetMapping("/archives")
-    public String archives(){
-        //int i=9/0;
-        //拦截异常 返回500
-        //String blog=null;
-        //if(blog==null){
-        //    throw  new NotFoundException("博客不存在");
-        //}
-
-        return "archives";
-    }
+//    @GetMapping("/archives")
+//    public String archives(){
+//        //int i=9/0;
+//        //拦截异常 返回500
+//        //String blog=null;
+//        //if(blog==null){
+//        //    throw  new NotFoundException("博客不存在");
+//        //}
+//
+//        return "archives";
+//    }
 
     @GetMapping("/tags")
     public String tags(){
@@ -130,6 +130,10 @@ public class IndexController {
 
         return "/admin/blogs-input";
     }
-
+    @GetMapping("/footer/newblog")
+    public String newblog(Model model){
+        model.addAttribute("newblogs",blogService.listRecommendBlogTop(3));
+        return "_fragments::newblogList";
+    }
 
 }

@@ -5,10 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1f4f0d6d-3294-4fec-836a-28691d56c98f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/log/blog-dev.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/best/web/ArchivesShowController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/best/web/aboutShowController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/best/service/CommentServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/best/service/CommentServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application-dev.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/blog-dev.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/blog-dev.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/best/service/BlogService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/best/service/BlogService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/best/service/BlogServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/best/service/BlogServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/best/web/IndexController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/best/web/IndexController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/_fragments.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/_fragments.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,6 +116,7 @@
       <workItem from="1624922764838" duration="9694000" />
       <workItem from="1624939974692" duration="11085000" />
       <workItem from="1624962996030" duration="817000" />
+      <workItem from="1624972794598" duration="1213000" />
     </task>
     <task id="LOCAL-00001" summary="Default Changelist">
       <created>1624706103633</created>
@@ -197,7 +202,14 @@
       <option name="project" value="LOCAL" />
       <updated>1624946684709</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Default Changelist">
+      <created>1624972899218</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1624972899218</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
