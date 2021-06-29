@@ -624,7 +624,7 @@ h5,h6{font-size:1em;}
             <!--m-mobile-wide:自己定义的在移动端撑满外部容器，m-margin-bottom-small:上下间隔-->
             <div class="field m-mobile-wide  m-margin-bottom-small">
               <!--m-mobile-wide:自己定义的在移动端撑满外部容器，两个都要加-->
-              <button id="commentpost-btn" type="button" class="ui teal button m-mobile-wide"><i class="edit icon"></i>发布</button>
+              <button id="commentPost-btn" type="button" class="ui teal button m-mobile-wide"><i class="edit icon"></i>发布</button>
             </div>
           </div>
         </div>
@@ -723,7 +723,7 @@ h5,h6{font-size:1em;}
 
     $('#payButton').popup({
       popup: $('.payQR.popup'),
-      on:'click',
+      //on:'click',
       position:'bottom center'
     });
     //初始化目录
@@ -792,10 +792,10 @@ h5,h6{font-size:1em;}
     });
 
     $(function (){
-      $("#comment-container").load(/*[[@{/comments/{id}(id=${blog.id}})}]]*/"comments/6");
-    })
+      $("#comment-container").load(/*[[@{/comments/{id}(id=${blog.id})}]]*/"comments/6");
+    });
 
-    $('#commentpost-btn').click(function (){
+    $('#commentPost-btn').click(function (){
       var boo=$('.ui.form').form('validate form');
       if(boo){
         console.log('校验成功');

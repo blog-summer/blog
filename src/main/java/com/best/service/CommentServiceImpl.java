@@ -3,6 +3,7 @@ package com.best.service;
 import com.best.dao.CommentRepository;
 import com.best.po.Comment;
 import org.springframework.beans.BeanUtils;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.autoconfigure.data.web.SpringDataWebProperties;
 import org.springframework.data.domain.Sort;
 import org.springframework.stereotype.Service;
@@ -15,6 +16,7 @@ import java.util.List;
 @Service
 public class CommentServiceImpl implements CommentService{
 
+    @Autowired
     private CommentRepository commentRepository;
 
     @Override

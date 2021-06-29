@@ -51,17 +51,12 @@ public class IndexController {
         return "search";
     }
 
-    @GetMapping("/blog")
-    public String blog(){
-        //int i=9/0;
-        //拦截异常 返回500
-        //String blog=null;
-        //if(blog==null){
-        //    throw  new NotFoundException("博客不存在");
-        //}
-
-        return "blog";
+    @GetMapping("/blog/{id}")
+    public String blog(@PathVariable Long id, Model model){
+        model.addAttribute("blog",blogService.getAndConvert(id));
+		        return "blog";
     }
+
 
 
     @GetMapping("/about")
@@ -136,9 +131,5 @@ public class IndexController {
         return "/admin/blogs-input";
     }
 
-    @GetMapping("/blog/{id}")
-    public String blog(@PathVariable Long id, Model model){
-        model.addAttribute("blog",blogService.getAndConvert(id));
-        return "blog";
-    }
+
 }
