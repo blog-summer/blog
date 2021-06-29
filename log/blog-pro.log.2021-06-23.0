@@ -1,5 +1,0 @@
-2021-06-23 15:53:41.056  INFO 16024 --- [restartedMain] com.best.BlogApplication                  : Starting BlogApplication using Java 12.0.2 on LAPTOP-8BNCNO6C with PID 16024 (D:\放代码\blog\target\classes started by 饮川 in D:\放代码\blog)
-2021-06-23 15:53:41.060  INFO 16024 --- [restartedMain] com.best.BlogApplication                  : The following profiles are active: pro
-2021-06-23 15:53:43.269  WARN 16024 --- [restartedMain] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
-2021-06-23 15:53:44.705  WARN 16024 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2021-06-23 15:53:45.387  INFO 16024 --- [restartedMain] com.best.BlogApplication                  : Started BlogApplication in 5.091 seconds (JVM running for 7.06)
