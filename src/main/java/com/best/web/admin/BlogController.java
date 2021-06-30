@@ -86,6 +86,7 @@ public class BlogController {
          blog.setUser((User) session.getAttribute("user"));
          blog.setType(typeService.getType(blog.getType().getId()));
 
+        blog.setFlag(blog.getType().getName());
 
          String[] idarray=blog.getTagIds().split(",");
          for(int i=0;i< idarray.length;i++){
